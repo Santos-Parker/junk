@@ -17,7 +17,7 @@ print
 library(GENEAread)
 library(signal)
 
-source('~/Desktop/zero/one/stats/GENEActive/SealsData/CODE_Revised/redbin.R')
+#source('~/Desktop/zero/one/stats/GENEActive/SealsData/CODE_Revised/redbin.R')
 
 #Set Hz value:################
 hz=75
