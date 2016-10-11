@@ -29,6 +29,7 @@ a <-length(files)
 for(i in 1:a){
   rawdata=redbin(files[i],calib=T)
   #This is the line that actually reads the data into R
+  #this is a test#
   
   #Pull out timepoint for each second "on the whole second"
   y  = matrix(rawdata$data.out[,1],hz)[1,]
